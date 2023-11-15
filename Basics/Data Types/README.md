@@ -7,6 +7,7 @@ In C programming, data types specify the type of data a variable can hold. C sup
 - double: Similar to float but with double precision.
 - char:Represents single characters.
 
+The following example shows how to use int data type. Assume that the file is named as numbers.c. 
 ```C
 #include <stdio.h>
 
@@ -16,3 +17,9 @@ int main() {
     return 0;
 }
 ```
+ You can run the above code using the Linux terminal and GCC as follows.
+```bash
+gcc num numbers.c
+./num
+```
+ 
