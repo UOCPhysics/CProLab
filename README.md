@@ -6,3 +6,5 @@ C is a low-level programming language, offering a high degree of control over ha
 C programs are compiled directly into machine code, producing executable files that are highly optimized for the target architecture.
 
 One of the main advantage of C programming language is C can be employed for writing parallel programs using libraries like OpenMP or MPI. This is important in scientific computing, where parallelism is often used to accelerate computations.
+
+Other advantage is C can be used in the development of software for embedded systems in scientific instruments. These systems require close control over hardware and real-time processing capabilities, making C a suitable choice.
