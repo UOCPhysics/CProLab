@@ -7,6 +7,7 @@ In C programming, data types specify the type of data a variable can hold. C sup
 - **double**: Similar to float but with double precision.
 - **char**:Represents single characters.
 
+## Data Types: int and long 
 The following example shows how to use **int** and **long** data types. Assume that the file is named as numbers.c. 
 ```C
 #include <stdio.h>
@@ -25,6 +26,7 @@ gcc -o num numbers.c
 ./num
 ```
 
+## Data Types:  float and double
 The following example shows how to use **float** and **double** data types. Assume that the file is named as floats.c. 
 ```C
 #include <stdio.h>
