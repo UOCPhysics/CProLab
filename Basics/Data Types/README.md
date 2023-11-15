@@ -35,7 +35,7 @@ The following example shows how to use **float** and **double** data types. Assu
 
 int main() {
     // Declare variables of type float and double
-    float floatVar = 3.14159265358979323846f;  // 'f' or 'F' suffix denotes a float constant
+    float floatVar = 3.14159265358979323846;  
     double doubleVar = 3.14159265358979323846;
 
     // Display the values with different precisions
@@ -43,7 +43,7 @@ int main() {
     printf("Double Variable: %.15lf\n", doubleVar);  // Display with 15 decimal places
 
     // Perform some arithmetic operations
-    float resultFloat = floatVar / 2.0f;
+    float resultFloat = floatVar / 2.0;
     double resultDouble = doubleVar / 2.0;
 
     // Display the results
