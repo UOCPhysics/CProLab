@@ -8,7 +8,7 @@ In C programming, data types specify the type of data a variable can hold. C sup
 - char:Represents single characters.
 
   ```c
-  #include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int age = 25;
