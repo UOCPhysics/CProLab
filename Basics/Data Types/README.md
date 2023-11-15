@@ -15,4 +15,4 @@ int main() {
     printf("Age: %d\n", age);
     return 0;
 }
-```
+```c
