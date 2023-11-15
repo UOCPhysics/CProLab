@@ -42,6 +42,7 @@ int main() {
 }
 ```
 
+The Output is
 ```
 Element at index 0: 1
 Element at index 1: 2
