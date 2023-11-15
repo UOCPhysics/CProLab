@@ -21,3 +21,20 @@ The size of an array is fixed once it is declared, and it cannot be changed duri
 ```C
 int size = sizeof(numbers); // Gives the total size of the array in bytes
 ```
+
+### Matrix Representation:
+
+C supports multidimensional arrays, allowing you to create tables or matrices. Let's consider the following Matrix.
+
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+| 7 | 8 | 9 |
+
+This can be represented by the following array.
+```C
+int matrix[3][3] = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+};
+```
