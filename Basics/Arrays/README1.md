@@ -21,6 +21,27 @@ The size of an array is fixed once it is declared, and it cannot be changed duri
 ```C
 int size = sizeof(numbers); // Gives the total size of the array in bytes
 ```
+### Iterate through an Array
+Below is an example of using a for loop to iterate through an array in C. In this example, we use an array of integers:
+```C
+#include <stdio.h>
+
+int main() {
+    // Declare and initialize an array
+    int numbers[] = {1, 2, 3, 4, 5};
+
+    // Determine the size of the array
+    int arraySize = sizeof(numbers) / sizeof(numbers[0]);
+
+    // Use a for loop to iterate through the array
+    for (int i = 0; i < arraySize; i++) {
+        printf("Element at index %d: %d\n", i, numbers[i]);
+    }
+
+    return 0;
+}
+
+```
 
 ### Matrix Representation:
 
