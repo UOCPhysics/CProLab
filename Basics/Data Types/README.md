@@ -19,7 +19,7 @@ int main() {
 ```
  You can run the above code using the Linux terminal and GCC as follows.
 ```bash
-gcc num numbers.c
+gcc -o num numbers.c
 ./num
 ```
  
