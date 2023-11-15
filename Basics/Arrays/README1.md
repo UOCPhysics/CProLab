@@ -27,6 +27,7 @@ int size = sizeof(numbers); // Gives the total size of the array in bytes
 C supports multidimensional arrays, allowing you to create tables or matrices. Let's consider the following Matrix.
 
 | 1 | 2 | 3 |
+|---|---|---|
 | 4 | 5 | 6 |
 | 7 | 8 | 9 |
 
