@@ -40,7 +40,14 @@ int main() {
 
     return 0;
 }
+```
 
+```
+Element at index 0: 1
+Element at index 1: 2
+Element at index 2: 3
+Element at index 3: 4
+Element at index 4: 5
 ```
 
 ### Matrix Representation:
