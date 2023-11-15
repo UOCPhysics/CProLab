@@ -68,6 +68,8 @@ Remember that the choice between float and double depends on the required precis
 
 # Data Type: char
 
+ In C programming, **char** is not limited to representing only letters; it can represent any ASCII character, including letters, digits, punctuation, and control characters. The following code contains three char variables including a alphebatical character, digit, and special character.
+
 ```C
 #include <stdio.h>
 
