@@ -9,7 +9,7 @@ int numbers[5]; // Declares an integer array with 5 elements
 
 ### Initialization:
 ```C
-int numbers[5] = {1, 2, 3, 4, 5}; // Initializes an integer array during declaration
+int numbers[] = {1, 2, 3, 4, 5}; // Initializes an integer array during declaration
 ```
 ### Accessing Elements:
 ```C
