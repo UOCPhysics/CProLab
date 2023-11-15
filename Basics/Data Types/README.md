@@ -65,3 +65,19 @@ gcc -o num floats.c
 Note that **float** has less precision than **double**. Using **printf** with format specifiers like **%f** and **%lf** allows you to control the precision when displaying floating-point numbers.
 
 Remember that the choice between float and double depends on the required precision and the range of values you need to represent. In general, double is more commonly used due to its higher precision, but it also requires more memory.
+
+# Data Type: char
+
+```C
+#include <stdio.h>
+
+int main() {
+    char letter = 'B';
+    char digit = '0';
+    char special = '#';
+    printf("Letter: %c\n", letter);
+    printf("Digit: %c\n", digit);
+    printf("Special Character: %c\n", special);
+    return 0;
+}
+```
