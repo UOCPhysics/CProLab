@@ -83,3 +83,36 @@ int main() {
     return 0;
 }
 ```
+In C, strings are represented as arrays of characters. The char data type is used to store individual characters, and arrays of characters are used to represent strings. Here's an example demonstrating the use of strings in C:
+
+```C
+#include <stdio.h>
+
+int main() {
+    // Declaration and initialization of a string
+    char myString[] = "Hello, World!";
+
+    // Display the string using printf
+    printf("String: %s\n", myString);
+
+    // Accessing individual characters in the string
+    printf("First character: %c\n", myString[0]);
+    printf("Fourth character: %c\n", myString[3]);
+
+    // Modifying a character in the string
+    myString[7] = 'C';
+    printf("Modified string: %s\n", myString);
+
+    // Concatenating strings
+    char greeting[] = "Hi, ";
+    char name[] = "John";
+    char combined[20]; // Make sure the combined array is large enough
+
+    // Using sprintf for string concatenation
+    sprintf(combined, "%s%s", greeting, name);
+    printf("Combined string: %s\n", combined);
+
+    return 0;
+}
+
+```
