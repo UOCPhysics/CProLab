@@ -7,7 +7,7 @@ In C programming, data types specify the type of data a variable can hold. C sup
 - double: Similar to float but with double precision.
 - char:Represents single characters.
 
-  ```c
+```c
 #include <stdio.h>
 
 int main() {
@@ -15,4 +15,4 @@ int main() {
     printf("Age: %d\n", age);
     return 0;
 }
-```c
+```
